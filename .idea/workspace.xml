@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94e2cb74-e9b2-4840-ae5a-dbfe26c1aa34" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Heading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Heading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/HeadingDate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/HeadingDate.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewTaskButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NewTaskButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TaskItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TaskItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TaskItemStar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TaskItemStar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TaskItemText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TaskItemText.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="94e2cb74-e9b2-4840-ae5a-dbfe26c1aa34" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +94,8 @@
       <workItem from="1751853882353" duration="531000" />
       <workItem from="1751854435825" duration="2836000" />
       <workItem from="1751900200521" duration="2268000" />
-      <workItem from="1751938234459" duration="468000" />
+      <workItem from="1751938234459" duration="613000" />
+      <workItem from="1751938887548" duration="736000" />
     </task>
     <servers />
   </component>
