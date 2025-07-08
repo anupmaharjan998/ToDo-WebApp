@@ -2,14 +2,17 @@ import HeadingTitle from "@/Components/HeadingTitle";
 import HeadingDate from "@/Components/HeadingDate";
 import NewTaskButton from "@/Components/NewTaskButton";
 
-export default function Heading() {
+
+const Heading = ({ onNewTaskClick }: { onNewTaskClick: () => void }) => {
     return (
         <div className="flex items-center justify-between mb-6 px-2 sm:px-4">
             <div>
                 <HeadingTitle />
                 <HeadingDate />
             </div>
-            <NewTaskButton />
+            <NewTaskButton onClick={onNewTaskClick} name={"+ New Task"}/>
         </div>
     );
-}
+};
+
+export default Heading;
