@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
 
-import TaskItem from "@/Components/TaskItem";
-import Heading from "@/Components/Heading";
-import NewTaskForm from "@/Components/NewTaskForm";
+import TaskItem from "@/components/TaskItem";
+import Heading from "@/components/Heading";
+import NewTaskForm from "@/components/NewTaskForm";
 
 export default function Home() {
     const [tasks, setTasks] = useState([]);
@@ -12,7 +12,7 @@ export default function Home() {
     useEffect(() => {
         const fetchTasks = async () => {
             try {
-                const res = await fetch("/API/tasks");
+                const res = await fetch("/api/tasks");
                 const data = await res.json();
                 setTasks(data.data);
             } catch (err) {
@@ -26,7 +26,7 @@ export default function Home() {
     const addTask = async (task: never) => {
 
             try {
-                const res = await fetch("/API/tasks", {
+                const res = await fetch("/api/tasks", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
@@ -43,7 +43,7 @@ export default function Home() {
     const deleteTask = async (id: string) => {
         try {
             console.log(id);
-            await fetch("/API/tasks", {
+            await fetch("/api/tasks", {
                 method: "DELETE",
                 headers: {
                     "Content-Type": "application/json",

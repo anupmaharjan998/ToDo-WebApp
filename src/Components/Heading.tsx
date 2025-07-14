@@ -1,6 +1,6 @@
-import HeadingTitle from "@/Components/HeadingTitle";
-import HeadingDate from "@/Components/HeadingDate";
-import NewTaskButton from "@/Components/NewTaskButton";
+import HeadingTitle from "@/components/HeadingTitle";
+import HeadingDate from "@/components/HeadingDate";
+import NewTaskButton from "@/components/NewTaskButton";
 
 
 const Heading = ({ onNewTaskClick }: { onNewTaskClick: () => void }) => {

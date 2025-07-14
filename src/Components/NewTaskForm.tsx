@@ -1,6 +1,6 @@
 "use client";
 import {useState} from "react";
-import NewTaskButton from "@/Components/NewTaskButton";
+import NewTaskButton from "@/components/NewTaskButton";
 
 export default function NewTaskForm({
                                         onClose,

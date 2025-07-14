@@ -1,6 +1,6 @@
-import TaskItemCheckbox from "@/Components/TaskItemCheckbox";
-import TaskItemText from "@/Components/TaskItemText";
-import TaskItemStar from "@/Components/TaskItemStar";
+import TaskItemCheckbox from "@/components/TaskItemCheckbox";
+import TaskItemText from "@/components/TaskItemText";
+import TaskItemStar from "@/components/TaskItemStar";
 
 export default function TaskItem({id, title, subtitle, date, isStarred, onDelete }: {
     id: string;
